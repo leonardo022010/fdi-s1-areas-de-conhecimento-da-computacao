@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(0, 0, 0);
+  }
+  h1 {
+    color: rgb(70, 226, 104);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 300%;
+  }
+  p {
+    color: rgb(175, 248, 183);
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+  }
+  h3 {
+    color: rgb(108, 233, 124);
+  }
+  li {
+    color: rgb(175, 248, 183);
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px; 
+  }
+  h4 {
+    color: rgb(108, 233, 124);
+  }
+  img {
+  display: block;
+  margin: auto;  
+  }
+button {
+  text-align: center;
+  margin-top: 30px; /* Espaço antes do botão */
+  padding: 10px 20px;
+  background-color:rgb(108, 233, 124);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 100%;
+}
+.centro {
+    text-align: center;
+}
+h2 {
+    color: rgb(108, 233, 124);
+}
+h5 {
+    color: rgb(108, 233, 124);
+}
+p1 {
+    color: rgb(248, 175, 211);
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+}
+.video-container {
+  position: relative;
+  width: 310px;
+  height: 160px;
+}
+
+.video-player {
+  width: 310px;
+  height: 160px;
+  display: block;
+}
+
+.btn-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza o botão */
+  font-size: 36px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-play:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+h11 {
+  display: block;
+  text-align: center;
+  color: rgb(248, 175, 211);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 300%;
+}

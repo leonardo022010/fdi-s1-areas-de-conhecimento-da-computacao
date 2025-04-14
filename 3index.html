@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Ciencia da Robotica</title>
+        <meta src="utf-8">
+    </head>
+    <body>
+        <h1>
+            Vamos aprender?
+        </h1>
+        <h2>
+            NÍVEL 1: INICIANTE ABSOLUTO – ROBÓTICA DO ZERO
+        </h2>
+        <h3>
+           Objetivo: Aprender os conceitos básicos construindo um robô simples.
+        </h3>
+        <h3>
+            1. Aprenda os Fundamentos
+        </h3>
+        <p>
+            <b>O que é um robô?</b> Sistema mecânico + sensores + controle + fonte de energia.<br><br><b>Tipos de movimento:</b> rodas, pernas, braços.<br><br><b>Comando e controle:</b> como um microcontrolador (como o Arduino) dá ordens ao robô.<b><br>
+        </p>
+        <h3>
+        2. Kit Recomendado
+        </h3>
+        <p>
+            Placa Arduino UNO (ou compatível)<br><br>Rodas + chassis simples<br><br>2 motores DC com suporte<br><br>Driver de motor (L298N ou L9110)<br><br>Sensor ultrassônico (HC-SR04)<br><br>Bateria 9V ou pack de pilhas + suporte<be><br>Jumpers e protoboard<br><br>
+       </p>
+       <h3>
+            3. Projeto Prático: Robô Desvia-Obstáculo
+       </h3>
+       <p>
+           O robô anda para frente, detecta um obstáculo com o sensor ultrassônico e desvia.<br><br>Pode ser montado com Arduino, motores e o sensor HC-SR04.<br><br>Programado em Arduino IDE (linguagem C/C++ simples).
+       </p>
+       <h2>
+            NÍVEL 2: INTERMEDIÁRIO – CONTROLE E SENSORIAL
+       </h2>
+        <p>
+            <b>Objetivo:</b> Aprender a controlar com mais precisão e adicionar mais inteligência. <br><br> Novos Componentes <br><br> Servomotores (para braços robóticos) <br><br> Encoder nos motores (controle de velocidade e rotação) <br><br> Sensor de linha (IR) – para robôs seguidores de linha <br><br> Bluetooth (HC-05) ou Wi-Fi (ESP8266) – controle via celular
+       </p>
+       <p>
+          Projetos Sugeridos<br><br>Robô Seguidor de Linha,<br><br>ô controlado por Bluetooth<br><br>Braço robótico com joystick<br><br><br><b>Você pode começar a usar bibliotecas do Arduino mais avançadas e até usar aplicativos no celular para controlar o robô por interface gráfica.</b>
+       </p>
+       <h2>
+            NÍVEL 3: AVANÇADO – ROBÔ AUTÔNOMO COM VISÃO E IA
+       </h2>
+       <p>
+          <b>Objetivo:</b> Criar robôs mais inteligentes, que aprendem e se adaptam.<br><br>Novos Componentes e Ferramentas<br><br>Raspberry Pi – mini computador com Linux<br><br>Câmera PiCam ou USB<br><br>OpenCV – para visão computacional<br><br>Python com IA – para robôs que reconhecem objetos, rostos, cores<br><br>SLAM com LIDAR ou câmeras – mapeamento do ambiente em tempo real
+       </p>
+       <h3>
+          Projetos Sugeridos
+       </h3>
+       <p>
+          Robô que reconhece cores ou objetos e vai até eles<br><br>Robô que mapeia e navega sozinho''<br><br>Robô que fala e interage (usando TTS e reconhecimento de voz)<br><br>Aqui você pode começar a usar ROS (Robot Operating System), um dos sistemas mais avançados e usados no mundo profissional da robótica.
+       </p>
+       <h3>
+            CAMINHO SUGERIDO PARA VOCÊ
+       </h3>
+       <ol>
+           <li>Montar o robô desvia-obstáculo com Arduino</li>
+           <li>Aprender o básico de programação (Arduino IDE, depois Python)</li>
+           <li>Evoluir para um robô com múltiplos sensores</li>
+           <li>Começar a integrar câmera e inteligência artificial</li>
+           <li>Se quiser, ir para ROS e simulação 3D com Gazebo</li>
+       </ol>
+            <div class="video-container">
+  <video id="video1" class="video-player" poster="img_video.jpeg">
+    <source src="video1.mp4" type="video/mp4">
+    Seu navegador não suporta o vídeo.
+  </video>
+  <button id="btnPlay" class="btn-play" onclick="playVideo()">▶</button>
+</div>
+        →↓↑←
+        <div class="centro">
+            <button onclick="window.location.href='1index.html'"><<</button>
+            <button onclick="window.location.href='2index.html'"><</button>
+            <button onclick="window.location.href='4index.html'">></button>
+            <button onclick="window.location.href='5index.html'">>></button>
+        </div>
+        <script>
+  document.getElementById("btnPlay").addEventListener("click", function() {
+    const video = document.getElementById("video1");
+    video.setAttribute("controls", "true");
+    video.play();
+    this.style.display = "none";
+  });
+</script>
+    </body>
+</html>
